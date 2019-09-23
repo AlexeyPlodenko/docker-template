@@ -1,0 +1,9 @@
+{
+  "name": "docker-template",
+  "version": "1.0.0",
+  "description": "A helper class that makes use of variables in Dockerfile easy.",
+  "main": "src/DockerTemplate.js",
+  "dependencies": {
+    "escape-string-regexp": "^2.0.0"
+  }
+}
