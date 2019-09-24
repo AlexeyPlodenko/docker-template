@@ -109,7 +109,7 @@ class DockerTemplate {
         } else {
             throw new Error(
                 'Either a template or a template file must be set. '
-                + 'Use DockerfileTpl.setTemplate() or DockerfileTpl.setTemplateFile() method to set them.'
+                + 'Use DockerTemplate.setTemplate() or DockerTemplate.setTemplateFile() method to set them.'
             );
         }
 
@@ -140,5 +140,5 @@ class DockerTemplate {
 }
 
 module.exports = {
-    DockerfileTpl
+    DockerTemplate
 };
